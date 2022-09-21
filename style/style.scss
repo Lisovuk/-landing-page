@@ -6,3 +6,129 @@
    box-sizing: border-box;
 }
 
+a {
+   text-decoration: none;
+   color: rgb(6, 6, 6);
+   font-weight: 600;
+}
+
+li {
+   list-style-type: none;
+}
+
+
+#app {
+
+   .header {
+         display: flex;
+         justify-content: space-around;
+
+      &__nav {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+
+      &__items {
+         display: flex;
+      }
+
+      &__item {
+         padding: 2rem;
+         font-size: 2rem;
+      }
+
+      &__item:hover{
+         transform: scale(1.1);
+      }
+   }
+
+   .main {
+
+      height: 100vh;
+      font-family: sans-serif;
+
+      &__blok {
+         height: 90%;
+         background-image: url("../images/main-blok/main-image.jpg");
+         background-size: 80%;
+         background-repeat: no-repeat;
+         background-position: center;
+      }
+
+      &__title {
+         position: relative;
+         top: 17%;
+         left: 11%;
+         font-size: 5rem;
+         color: rgb(255, 221, 98);
+      }
+
+      &__text {
+         font-size: 5rem;
+         color: rgb(108, 108, 108);
+         position: relative;
+         top: 20%;
+         left: 15%;
+         font-weight: 700;
+      }
+
+      &__title-second {
+         position: relative;
+         top: 60%;
+         left: 45%;
+         font-size: 8rem;
+         color: rgb(255, 255, 255);
+      } 
+
+      &__groups {
+         display: flex;
+         justify-content: space-around;
+      }
+
+      &__company {
+         padding: 3rem;
+      }
+
+      .image-company:hover{
+         transform: scale(1.5);
+      }
+   }
+
+   .form {
+      
+      &__box {
+         background-color: rgb(222, 219, 219);
+         max-width: 30%;
+         position: relative;
+         left: 32%;
+         text-align: center;
+         padding: 2rem;
+         border: 1px solid rgb(222, 219, 219); 
+         margin: 1rem;
+      }
+
+      &__title {
+         font-size: 2.5rem;
+      }
+
+      &__btn {
+         margin: .5rem;
+         font-size: 1.5rem;
+         padding: 1rem;
+         width: 35%;
+         border: 1px solid rgb(222, 219, 219);
+         background-color: rgb(255, 221, 98);
+         cursor: pointer;
+      }
+
+      &__btn:hover {
+         color: rgb(255, 29, 29);
+         transform: scale(1.1);
+      }
+   }
+
+
+   
+
+}
