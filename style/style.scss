@@ -19,6 +19,7 @@ li {
 
 #app {
 
+
    .header {
          display: flex;
          justify-content: space-around;
@@ -44,12 +45,12 @@ li {
    }
 
    .main {
-
+      
       font-family: sans-serif;
       
 
       &__blok {
-         height: 900px;
+         height: 700px;
          background-image: url("../images/main-blok/main-image.jpg");
          background-size: contain, cover;
          background-repeat: no-repeat;
@@ -57,25 +58,25 @@ li {
       }
 
       &__title {
-         position: relative;
-         top: 20%;
-         left: 10%;
-         font-size: 5rem;
-         color: rgb(255, 221, 98);
+         position: absolute;
+         top: 35%;
+         left: 13%;
+         font-size: 3rem;
+         color: rgb(58, 58, 58);
       }
 
       &__text {
          font-size: 5rem;
          color: rgb(108, 108, 108);
-         position: relative;
-         top: 20%;
-         left: 10%;
+         position: absolute;
+         top: 55%;
+         left: 13%;
          font-weight: 700;
       }
 
       &__title-second {
          position: relative;
-         top: 60%;
+         top: 68%;
          left: 45%;
          font-size: 8rem;
          color: rgb(255, 255, 255);
@@ -123,11 +124,11 @@ li {
          text-align: center;
          padding: 2rem;
          border: 1px solid rgb(222, 219, 219); 
-         margin: 1rem;
+         margin: .5rem;
       }
 
       &__title {
-         font-size: 2.5rem;
+         font-size: 2rem;
       }
 
       &__btn {
@@ -148,8 +149,8 @@ li {
 
    .section {
       background-color: gold;
-      height: 20%;
-      margin: 2rem;
+      height: 15%;
+      margin: 2.5rem;
 
       &__box {
          display: grid;
@@ -168,11 +169,15 @@ li {
          font-size: 1.2rem;
          color: darkred;
          font-weight: 700;
+         text-align: center;
          
       }
    }
 
-   
+   .footer {
+      background-color: black;
+      height: 20%;
+   }
 
 
    
